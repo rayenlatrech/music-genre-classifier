@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 # ------------ CONFIG ------------ #
 
-DATA_DIR = os.path.join("data", "gtzan")  # where your genre folders are
+DATA_DIR = os.path.join("data", "gtzan")  # one subfolder per genre
 OUTPUT_CSV = os.path.join("data", "gtzan_features.csv")
 
 # The 10 GTZAN genres (folder names)
